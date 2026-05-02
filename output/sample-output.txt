@@ -1,0 +1,207 @@
+Tier 1 — Instruction Set Parsing
+rv32_c | 1 instructions | e.g. C_JAL
+rv32_c_f | 4 instructions | e.g. C_FLW
+rv32_d_zfa | 2 instructions | e.g. FMVH_X_D
+rv32_zk | 10 instructions | e.g. AES32DSI
+rv32_zkn | 10 instructions | e.g. AES32DSI
+rv32_zknd | 2 instructions | e.g. AES32DSI
+rv32_zkne | 2 instructions | e.g. AES32ESI
+rv32_zknh | 6 instructions | e.g. SHA512SIG0H
+rv64_a | 11 instructions | e.g. AMOADD_D
+rv64_c | 10 instructions | e.g. C_ADDIW
+rv64_d | 6 instructions | e.g. FCVT_D_L
+rv64_f | 4 instructions | e.g. FCVT_L_S
+rv64_h | 3 instructions | e.g. HLV_D
+rv64_i | 15 instructions | e.g. ADDIW
+rv64_m | 5 instructions | e.g. DIVUW
+rv64_q | 4 instructions | e.g. FCVT_L_Q
+rv64_q_zfa | 2 instructions | e.g. FMVH_X_Q
+rv64_zacas | 1 instructions | e.g. AMOCAS_Q
+rv64_zba | 5 instructions | e.g. ADD_UW
+rv64_zbb | 9 instructions | e.g. CLZW
+rv64_zbkb | 5 instructions | e.g. PACKW
+rv64_zbp | 5 instructions | e.g. GORCI
+rv64_zbs | 4 instructions | e.g. BCLRI
+rv64_zcb | 1 instructions | e.g. C_ZEXT_W
+rv64_zfh | 4 instructions | e.g. FCVT_H_L
+rv64_zk | 16 instructions | e.g. AES64DS
+rv64_zkn | 16 instructions | e.g. AES64DS
+rv64_zknd | 5 instructions | e.g. AES64DS
+rv64_zkne | 4 instructions | e.g. AES64ES
+rv64_zknh | 4 instructions | e.g. SHA512SIG0
+rv64_zkr | 1 instructions | e.g. CSRRAND64
+rv64_zks | 5 instructions | e.g. PACKW
+rv_a | 11 instructions | e.g. AMOADD_W
+rv_c | 23 instructions | e.g. C_ADD
+rv_c_d | 4 instructions | e.g. C_FLD
+rv_d | 26 instructions | e.g. FADD_D
+rv_d_zfa | 8 instructions | e.g. FCVTMOD_W_D
+rv_d_zfhmin | 2 instructions | e.g. FCVT_D_H
+rv_f | 26 instructions | e.g. FADD_S
+rv_f_zfa | 7 instructions | e.g. FLEQ_S
+rv_h | 13 instructions | e.g. HFENCE_GVMA
+rv_i | 37 instructions | e.g. ADD
+rv_m | 8 instructions | e.g. DIV
+rv_q | 30 instructions | e.g. FADD_Q
+rv_q_zfa | 7 instructions | e.g. FLEQ_Q
+rv_q_zfhmin | 2 instructions | e.g. FCVT_H_Q
+rv_s | 2 instructions | e.g. SFENCE_VMA
+rv_sdext | 1 instructions | e.g. DRET
+rv_smrnmi | 1 instructions | e.g. MNRET
+rv_ssctr | 1 instructions | e.g. SCTRCLR
+rv_svinval | 3 instructions | e.g. SFENCE_INVAL_IR
+rv_svinval_h | 2 instructions | e.g. HINVAL_GVMA
+rv_system | 2 instructions | e.g. MRET
+rv_u | 1 instructions | e.g. URET
+rv_v | 627 instructions | e.g. VAADD_VV
+rv_zabha | 18 instructions | e.g. AMOADD_B
+rv_zabha_zacas | 2 instructions | e.g. AMOCAS_B
+rv_zacas | 2 instructions | e.g. AMOCAS_D
+rv_zalasr | 8 instructions | e.g. LB_AQ
+rv_zawrs | 2 instructions | e.g. WRS_NTO
+rv_zba | 3 instructions | e.g. SH1ADD
+rv_zbb | 17 instructions | e.g. ANDN
+rv_zbc | 3 instructions | e.g. CLMUL
+rv_zbkb | 7 instructions | e.g. ANDN
+rv_zbkc | 2 instructions | e.g. CLMUL
+rv_zbkx | 2 instructions | e.g. XPERM4
+rv_zbp | 1 instructions | e.g. XPERM16
+rv_zbs | 4 instructions | e.g. BCLR
+rv_zcb | 11 instructions | e.g. C_LBU
+rv_zcmop | 1 instructions | e.g. C_MOP_N
+rv_zcmp | 6 instructions | e.g. CM_MVA01S
+rv_zcmt | 1 instructions | e.g. CM_JALT
+rv_zfbfmin | 2 instructions | e.g. FCVT_BF16_S
+rv_zfh | 22 instructions | e.g. FADD_H
+rv_zfh_zfa | 7 instructions | e.g. FLEQ_H
+rv_zfhmin | 6 instructions | e.g. FCVT_H_S
+rv_zibi | 2 instructions | e.g. BEQI
+rv_zicbo | 4 instructions | e.g. CBO_CLEAN
+rv_zicfiss | 2 instructions | e.g. SSAMOSWAP_D
+rv_zicond | 2 instructions | e.g. CZERO_EQZ
+rv_zicsr | 6 instructions | e.g. CSRRC
+rv_zifencei | 1 instructions | e.g. FENCE_I
+rv_zimop | 2 instructions | e.g. MOP_R_N
+rv_zk | 15 instructions | e.g. ANDN
+rv_zkn | 15 instructions | e.g. ANDN
+rv_zknh | 4 instructions | e.g. SHA256SIG0
+rv_zkr | 1 instructions | e.g. CSRRAND
+rv_zks | 15 instructions | e.g. ANDN
+rv_zksed | 2 instructions | e.g. SM4ED
+rv_zksh | 2 instructions | e.g. SM3P0
+rv_zvabd | 5 instructions | e.g. VABD_VV
+rv_zvbb | 16 instructions | e.g. VANDN_VV
+rv_zvbc | 4 instructions | e.g. VCLMUL_VV
+rv_zvfbdot32f | 1 instructions | e.g. VFBDOT_VV
+rv_zvfbfmin | 2 instructions | e.g. VFNCVTBF16_F_F_W
+rv_zvfbfwma | 2 instructions | e.g. VFWMACCBF16_VF
+rv_zvfofp4min | 1 instructions | e.g. VFEXT_VF2
+rv_zvfofp8min | 3 instructions | e.g. VFNCVT_F_F_Q
+rv_zvfqbdot8f | 2 instructions | e.g. VFQBDOT_ALT_VV
+rv_zvfqldot8f | 2 instructions | e.g. VFQLDOT_ALT_VV
+rv_zvfwbdot16bf | 1 instructions | e.g. VFWBDOT_VV
+rv_zvfwldot16bf | 1 instructions | e.g. VFWLDOT_VV
+rv_zvkg | 2 instructions | e.g. VGHSH_VV
+rv_zvkn | 23 instructions | e.g. VAESDF_VS
+rv_zvkned | 11 instructions | e.g. VAESDF_VS
+rv_zvknha | 3 instructions | e.g. VSHA2CH_VV
+rv_zvknhb | 3 instructions | e.g. VSHA2CH_VV
+rv_zvks | 14 instructions | e.g. VANDN_VV
+rv_zvksed | 3 instructions | e.g. VSM4K_VI
+rv_zvksh | 2 instructions | e.g. VSM3C_VI
+rv_zvqbdot8i | 2 instructions | e.g. VQBDOTS_VV
+rv_zvqdotq | 7 instructions | e.g. VQDOT_VV
+rv_zvqldot8i | 2 instructions | e.g. VQLDOTS_VV
+rv_zvzip | 5 instructions | e.g. VPAIRE_VV
+
+Instructions in multiple extensions:
+aes32dsi -> rv32_zknd, rv32_zk, rv32_zkn
+aes32dsmi -> rv32_zknd, rv32_zk, rv32_zkn
+aes32esi -> rv32_zkne, rv32_zk, rv32_zkn
+aes32esmi -> rv32_zkne, rv32_zk, rv32_zkn
+aes64ds -> rv64_zknd, rv64_zkn, rv64_zk
+aes64dsm -> rv64_zknd, rv64_zkn, rv64_zk
+aes64es -> rv64_zkne, rv64_zkn, rv64_zk
+aes64esm -> rv64_zkne, rv64_zkn, rv64_zk
+aes64im -> rv64_zknd, rv64_zkn, rv64_zk
+aes64ks1i -> rv64_zknd, rv64_zkn, rv64_zkne, rv64_zk
+aes64ks2 -> rv64_zknd, rv64_zkn, rv64_zkne, rv64_zk
+andn -> rv_zbb, rv_zkn, rv_zks, rv_zk, rv_zbkb
+clmul -> rv_zbc, rv_zkn, rv_zks, rv_zk, rv_zbkc
+clmulh -> rv_zbc, rv_zkn, rv_zks, rv_zk, rv_zbkc
+orn -> rv_zbb, rv_zkn, rv_zks, rv_zk, rv_zbkb
+pack -> rv_zbkb, rv_zkn, rv_zks, rv_zk
+packh -> rv_zbkb, rv_zkn, rv_zks, rv_zk
+packw -> rv64_zbkb, rv64_zks, rv64_zkn, rv64_zk
+rol -> rv_zbb, rv_zkn, rv_zks, rv_zk, rv_zbkb
+rolw -> rv64_zbb, rv64_zks, rv64_zkn, rv64_zk, rv64_zbkb
+ror -> rv_zbb, rv_zkn, rv_zks, rv_zk, rv_zbkb
+rori -> rv64_zbb, rv64_zks, rv64_zkn, rv64_zk, rv64_zbkb
+roriw -> rv64_zbb, rv64_zks, rv64_zkn, rv64_zk, rv64_zbkb
+rorw -> rv64_zbb, rv64_zks, rv64_zkn, rv64_zk, rv64_zbkb
+sha256sig0 -> rv_zknh, rv_zkn, rv_zk
+sha256sig1 -> rv_zknh, rv_zkn, rv_zk
+sha256sum0 -> rv_zknh, rv_zkn, rv_zk
+sha256sum1 -> rv_zknh, rv_zkn, rv_zk
+sha512sig0 -> rv64_zknh, rv64_zkn, rv64_zk
+sha512sig0h -> rv32_zknh, rv32_zk, rv32_zkn
+sha512sig0l -> rv32_zknh, rv32_zk, rv32_zkn
+sha512sig1 -> rv64_zknh, rv64_zkn, rv64_zk
+sha512sig1h -> rv32_zknh, rv32_zk, rv32_zkn
+sha512sig1l -> rv32_zknh, rv32_zk, rv32_zkn
+sha512sum0 -> rv64_zknh, rv64_zkn, rv64_zk
+sha512sum0r -> rv32_zknh, rv32_zk, rv32_zkn
+sha512sum1 -> rv64_zknh, rv64_zkn, rv64_zk
+sha512sum1r -> rv32_zknh, rv32_zk, rv32_zkn
+sm3p0 -> rv_zksh, rv_zks
+sm3p1 -> rv_zksh, rv_zks
+sm4ed -> rv_zksed, rv_zks
+sm4ks -> rv_zksed, rv_zks
+vaesdf_vs -> rv_zvkned, rv_zvkn
+vaesdf_vv -> rv_zvkned, rv_zvkn
+vaesdm_vs -> rv_zvkned, rv_zvkn
+vaesdm_vv -> rv_zvkned, rv_zvkn
+vaesef_vs -> rv_zvkned, rv_zvkn
+vaesef_vv -> rv_zvkned, rv_zvkn
+vaesem_vs -> rv_zvkned, rv_zvkn
+vaesem_vv -> rv_zvkned, rv_zvkn
+vaeskf1_vi -> rv_zvkned, rv_zvkn
+vaeskf2_vi -> rv_zvkned, rv_zvkn
+vaesz_vs -> rv_zvkned, rv_zvkn
+vandn_vv -> rv_zvbb, rv_zvks, rv_zvkn
+vandn_vx -> rv_zvbb, rv_zvks, rv_zvkn
+vbrev8_v -> rv_zvbb, rv_zvks, rv_zvkn
+vrev8_v -> rv_zvbb, rv_zvks, rv_zvkn
+vrol_vv -> rv_zvbb, rv_zvks, rv_zvkn
+vrol_vx -> rv_zvbb, rv_zvks, rv_zvkn
+vror_vi -> rv_zvbb, rv_zvks, rv_zvkn
+vror_vv -> rv_zvbb, rv_zvks, rv_zvkn
+vror_vx -> rv_zvbb, rv_zvks, rv_zvkn
+vsha2ch_vv -> rv_zvknha, rv_zvknhb, rv_zvkn
+vsha2cl_vv -> rv_zvknha, rv_zvknhb, rv_zvkn
+vsha2ms_vv -> rv_zvknha, rv_zvknhb, rv_zvkn
+vsm3c_vi -> rv_zvksh, rv_zvks
+vsm3me_vv -> rv_zvksh, rv_zvks
+vsm4k_vi -> rv_zvksed, rv_zvks
+vsm4r_vs -> rv_zvksed, rv_zvks
+vsm4r_vv -> rv_zvksed, rv_zvks
+xnor -> rv_zbb, rv_zkn, rv_zks, rv_zk, rv_zbkb
+xperm4 -> rv_zbkx, rv_zkn, rv_zks, rv_zk
+xperm8 -> rv_zbkx, rv_zkn, rv_zks, rv_zk
+
+Validation — Instruction Coverage
+Total instructions: 1188
+Missing extension tag: 0
+
+Tier 2 — Cross-Reference with ISA Manual
+Matched: 58
+JSON only: 18
+Manual only: 170
+
+Extensions present in instr_dict.json but not in manual:
+sdext, ssctr, system, zbp, zibi, zicbo, zvabd, zvfbdot32f, zvfofp4min, zvfofp8min, zvfqbdot8f, zvfqldot8f, zvfwbdot16bf, zvfwldot16bf, zvqbdot8i, zvqdotq, zvqldot8i, zvzip
+
+Extensions mentioned in manual but not in instr_dict.json:
+b, k, sh, sha, shcounterenw, shgatpa, shtvala, shvsatpa, shvstvala, shvstvecd, sm, smcdeleg, smcntrpmf, smcsrind, smctr, smdbltrp, smepmp, smstateen, ss, ssccptr, sscofpmf, sscounterenw, ssdbltrp, ssqosid, ssstrict, sstc, sstvala, sstvecd, ssu64xl, sv, svadu, svnapot, svpbmt, svrsw60t59b, svvptc, za, za128rs, za64rs, zaamo, zabc, zabhaamocasbhignorebits, zabrocki, zacasrv32amocasdfrstpairentryregeven, zacasrv32amocasdrdfrstregx0, zacasrv32amocasdrs2frstregx0, zacasrv64amocasqfrstpairentryregeven, zacasrv64amocasqrdfrstregx0, zacasrv64amocasqrs2frstregx0, zalrsc, zam, zama, zama16b, zama16bpmamagreq, zandijk, zars, zb, zbk, zbkbsc, zc, zca, zcd, zce, zcf, zclsd, zcmtentrysz, zcmtfetch, zcmttrap, zdinx, zero, zerocopy, zeroed, zeroes, zeroextend, zeroextended, zeroextending, zeroextends, zeroing, zeros, zeroth, zext, zextortruncatetosew, zf, zfinx, zhang, zhinx, zhinxmin, zi, zic64b, zicbom, zicbop, zicboz, ziccamoa, ziccamoapmaamoreq, ziccamoc, ziccamocpmaamoreq, ziccif, ziccifpmaapplication, zicclsm, ziccrse, ziccrsepmarsrvreq, zicfilp, zicfilpforwardtraps, zicfissnotactive, zicntr, zihintntl, zihintpause, zihpm, zilsd, zilsdcsdop, zilsdcsdspop, zilsdsdop, zip, zjid, zkt, zmmul, zmmulmisam, zp, zpm, ztso, zve, zve32, zve32f, zve32fzve64fdependentf, zve32fzve64xdependentzve32x, zve32x, zve32xdependentzicsr, zve32xzve64xnsupportfreg, zve64, zve64d, zve64ddependentzve64f, zve64eew64nsupportvmulh, zve64eew64nsupportvsmul, zve64f, zve64fdependentzve32fzve64x, zve64x, zveeew, zvensupporteew64xlen32, zveprecisetraps, zvexlen, zvfh, zvfhdependentzve32fzfhmin, zvfheew16, zvfhinstr, zvfhinstrcvt, zvfhmin, zvfhmindependentzve32f, zvkb, zvkgvstart, zvknc, zvkneddataindeptiming, zvknedegw128belem32b, zvknedvl, zvkng, zvknh, zvknhazvknhbvstart, zvksc, zvkseddataindeptiming, zvksedegw128belem32b, zvksedvl, zvksg, zvkshvstart, zvkshw, zvkt, zvl, zvl1024b, zvl128b, zvl256b, zvl32b, zvl512b, zvl64b
+
+Tier 3 — Graph written to /home/carbon14/riscv-extensions-landscape/isa-explorer/output/shared-extensions.dot

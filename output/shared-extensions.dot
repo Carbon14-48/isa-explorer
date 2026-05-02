@@ -1,0 +1,34 @@
+graph extensions {
+  overlap=false;
+  splines=true;
+  "Zk" -- "Zkn" [label="41"];
+  "Zk" -- "Zks" [label="16"];
+  "Zkn" -- "Zks" [label="16"];
+  "Zk" -- "Zknh" [label="14"];
+  "Zkn" -- "Zknh" [label="14"];
+  "Zbkb" -- "Zk" [label="12"];
+  "Zbkb" -- "Zkn" [label="12"];
+  "Zbkb" -- "Zks" [label="12"];
+  "Zvkn" -- "Zvkned" [label="11"];
+  "D" -- "Zfa" [label="10"];
+  "Q" -- "Zfa" [label="9"];
+  "Zbb" -- "Zbkb" [label="9"];
+  "Zbb" -- "Zk" [label="9"];
+  "Zbb" -- "Zkn" [label="9"];
+  "Zbb" -- "Zks" [label="9"];
+  "Zvbb" -- "Zvkn" [label="9"];
+  "Zvbb" -- "Zvks" [label="9"];
+  "Zvkn" -- "Zvks" [label="9"];
+  "F" -- "Zfa" [label="7"];
+  "Zfa" -- "Zfh" [label="7"];
+  "Zk" -- "Zknd" [label="7"];
+  "Zkn" -- "Zknd" [label="7"];
+  "Zk" -- "Zkne" [label="6"];
+  "Zkn" -- "Zkne" [label="6"];
+  "C" -- "D" [label="4"];
+  "C" -- "F" [label="4"];
+  "Zvkn" -- "Zvknha" [label="3"];
+  "Zvkn" -- "Zvknhb" [label="3"];
+  "Zvknha" -- "Zvknhb" [label="3"];
+  "Zvks" -- "Zvksed" [label="3"];
+}
