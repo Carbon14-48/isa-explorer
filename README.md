@@ -2,6 +2,8 @@
 
 Small Node.js CLI used for the RISC-V Mentorship Coding Challenge. It parses the instruction dictionary, groups by extension, cross-references the ISA manual, and emits a graph of shared instructions.
 
+Source link: https://github.com/Carbon14-48/isa-explorer/blob/main/index.js
+
 ## Setup
 
 ```bash
