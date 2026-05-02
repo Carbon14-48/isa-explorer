@@ -35,6 +35,7 @@ function splitCompositeTag(tag) {
 
   for (const part of parts) {
     if (!part) continue;
+    // Split bundled base extensions like "imafdc" into individual letters.
     if (/^[imafdgcqkvhu]+$/.test(part) && part.length > 1) {
       for (const ch of part.split("")) expanded.push(ch);
       continue;
@@ -191,6 +192,7 @@ function extractExtensionsFromText(text) {
   const tokens = collectCodeTokens(text);
   const extra = [];
 
+  // Strict patterns for extension-like tokens in prose.
   const regex = /\b(Z[a-z0-9]+|S[a-z0-9]+|H[a-z0-9]+|[IMAFDGVBKQHUS])\b/g;
   let match;
   while ((match = regex.exec(text)) !== null) {
@@ -223,6 +225,7 @@ function normalizeExtensionSet(extSet) {
 function scanManualExtensions(srcDir) {
   const files = listAsciiDocFiles(srcDir);
   const all = new Set();
+  // Avoid non-extension document filenames to reduce noise.
   const deny = new Set([
     "intro",
     "index",
